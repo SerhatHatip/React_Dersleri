@@ -5,14 +5,12 @@ import axios from 'axios'
 import { useState } from 'react';
 function Weather() {
 
-const sky =document.getElementById('sky')
+const sky =document.getElementById('sky');
 const city_id=document.getElementById('city-id');
-const img=document.getElementById('img')
-const temp=document.getElementById('temp')
-const wind=document.getElementById('wind')
-const humidity=document.getElementById('humidity')
-const search_input=document.querySelector('.search-button')
-
+const img=document.getElementById('img');
+const temp=document.getElementById('temp');
+const wind=document.getElementById('wind');
+const humidity=document.getElementById('humidity');
 const [city,setCity]=useState();
 
 
